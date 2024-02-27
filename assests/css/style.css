@@ -165,3 +165,93 @@
     }
 
 }
+/******************section-2*****************/
+
+.bg-img1 {
+    background-size: cover;
+    width: 100%; 
+    margin-top: 40px;
+}
+.img-food{
+    width: 60%;
+}
+.menu {
+    display: block;
+    text-align: center;
+    font-size: 40px ;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+
+}
+.table tr td {
+    background-color: transparent;
+    color: white;
+    border: #ffc107 solid 3px;
+   
+}
+.table tr {
+    border-top: hidden;
+  
+}
+.table{
+    width: 75%;
+    margin: auto;
+}
+
+.table th{
+    background-color: #ffc107;
+    color: black;
+    border: #ffc107 solid 3px;
+}
+.list-2{
+    margin-top: 20px;
+}
+
+/***************animation****************/
+.img-food{
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes fade{
+    50%{opacity: 0.3;}
+}
+/**************breaking point************/
+@media (max-width:1200px){
+    
+    .menu { 
+        font-size: 40px;
+    }
+}
+@media (max-width:992px){
+    
+    .menu { 
+        font-size: 40px !important;
+    }
+}
+@media (max-width:576px){
+    .col-xl-4{
+        
+        padding-bottom: 2px;
+    }
+    .img-food{
+        width: 45%;
+    }
+    .menu { 
+        font-size: 25px;
+    }
+}
+@media (max-width:320px){
+    .col-xl-4{
+       
+        padding-bottom: 2px;
+    }
+    .menu { 
+        font-size: 20px !important;
+    }
+    .img-food{
+        width: 50%;
+    }
+}
