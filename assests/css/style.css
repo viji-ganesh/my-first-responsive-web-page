@@ -218,7 +218,7 @@
 @keyframes fade{
     50%{opacity: 0.3;}
 }
-/**************breaking point************/
+/**************break point************/
 @media (max-width:1200px){
     
     .menu { 
@@ -254,4 +254,166 @@
     .img-food{
         width: 50%;
     }
+}
+
+/*********************section-3******************/
+
+.bg-img2{
+    background-size: cover;
+    
+    margin-top: 40px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+.food-img2{
+    max-width: 100%;
+    
+}
+.text1 h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: right;
+    font-size: 3vw;
+}
+.text1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: right;
+    font-size: 3vw;
+}
+ .discount-txt{
+    position: relative;
+}
+.big-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 !important;
+    text-align: right;
+    font-size: 3vw;
+}
+.click{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    padding: 3px 20px 0px 20px;
+    border: #ffc107 !important;
+}
+.text2 h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+    text-align: right ;
+    font-size: 2vw;
+}
+.text1{
+    position: absolute;
+    top: 10%;
+    right: 94px;
+}
+.text2{
+    position: absolute;
+    bottom: 0%;
+    right: 90px;
+    width: 351px;
+    text-align: right;
+}
+.part2-img{
+    padding: 20px;
+    width: 171px;
+}
+.meat h3{
+    padding-right: 20px;   
+}
+
+/***********************breaking point**************/
+@media (max-width:998px){
+    .part2-img{
+        padding: 10px;
+        width: 110px;
+    }
+}
+@media (max-width:898px){
+    .part2-img{
+        padding: 2px;
+        width: 90px;
+}
+}
+
+@media (max-width:771px){
+    .text1{
+        position: absolute;
+        top: 5%;
+        right: 94px;
+    }
+    .text2{
+        position: absolute;
+        bottom: 0%;
+        right: 90px;
+        width: 351px;
+        text-align: right;
+        top: 190px;
+}
+    }
+    @media (max-width:598px){
+        .text1{
+            position: absolute;
+            top: 5%;
+            right: 25px;
+        }
+        .text2{
+            position: absolute;
+            bottom: 0%;
+            right: 25px;
+            width: 351px;
+            text-align: right;
+            top: 190px;
+    }
+    .click{
+        padding: 3px 10px 0px 10px;
+    }
+    }
+    @media (max-width:578px){
+        .text1{
+            position: absolute;
+            top: 5%;
+            right: 25px;
+            left: -42px;
+        }
+        .text2{
+            position: absolute;
+            bottom: 0%;
+            right: 0px;
+            width: 351px;
+            text-align: right;
+            top: 22px;
+    }
+    .food-img2 {
+        max-width: 75%;        
+}
+.div-3{
+    text-align: center;
+}
+.meat {
+    font-size: small;
+}   
+.bg-img2{
+    height: 137vh;
+  }
+}
+@media (max-width:425px){
+    .bg-img2{
+        height: 110vh;
+    }
+    .text1 h1{
+            font-size:small ;
+        }
+}
+@media (max-width:320px){
+    .bg-img2{
+        height: 86vh;
+    
+        }
+        .text1 h1{
+            font-size:small ;
+        }
+
 }
