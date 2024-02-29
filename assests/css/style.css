@@ -323,7 +323,17 @@
 .meat h3{
     padding-right: 20px;   
 }
-
+/******************animation*****************/
+.food-img2{
+    animation-name: grow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes grow {
+    50%{
+        transform: rotateX(90deg);
+    }
+}
 /***********************breaking point**************/
 @media (max-width:998px){
     .part2-img{
